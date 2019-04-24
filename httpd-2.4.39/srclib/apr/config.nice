@@ -1,0 +1,16 @@
+#! /bin/sh
+#
+# Created by configure
+
+"/home/centos/httpd-2.4.39/srclib/apr/configure" \
+"--disable-option-checking" \
+"--cache-file=/dev/null" \
+"--srcdir=/home/centos/httpd-2.4.39/srclib/apr" \
+"--prefix=/usr/local/httpd" \
+"--exec-prefix=/usr/local/httpd" \
+"--libdir=/usr/local/httpd/lib" \
+"--includedir=/usr/local/httpd/include" \
+"--bindir=/usr/local/httpd/bin" \
+"--datadir=/usr/local/httpd" \
+"--with-installbuilddir=/usr/local/httpd/build" \
+"$@"
